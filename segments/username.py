@@ -10,7 +10,10 @@ def add_username_segment(powerline):
 
     if os.getenv('USER') == 'root':
         bgcolor = Color.USERNAME_ROOT_BG
+        fgcolor = Color.USERNAME_ROOT_FG
+        user_prompt = u' \u26A1' + user_prompt
     else:
         bgcolor = Color.USERNAME_BG
+        fgcolor = Color.USERNAME_FG
 
-    powerline.append(user_prompt, Color.USERNAME_FG, bgcolor)
+    powerline.append(user_prompt, fgcolor, bgcolor)
