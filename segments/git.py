@@ -8,7 +8,8 @@ GIT_SYMBOLS = {
     'behind': u'\u2B07',
     'staged': u'\u2714',
     'notstaged': u'\u270E',
-    'untracked': u'\u2753',
+#    'untracked': u'\u2753',
+    'untracked': u'?',
     'conflicted': u'\u273C',
     'git': u'\uE0A0'
 }
